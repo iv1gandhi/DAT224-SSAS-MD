@@ -1,0 +1,59 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c682ae84-8292-4e3c-89e5-21c1dfb0a01d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Reseller Sales</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Quota</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2263182a-bf65-45d0-840a-b4863843bae7">
+          <ID>Quota</ID>
+          <Name>Quota</Name>
+          <CreatedTimestamp>2018-09-03T15:15:52.823333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2018-09-03T15:15:52.823333Z</LastSchemaUpdate>
+          <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c4742c23-c07c-4b37-ac0b-52e8b67ac3f8">
+            <DataSourceViewID>Reseller Sales</DataSourceViewID>
+            <TableID>dbo_FactSalesQuota</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="7e43f0fe-8114-4471-966d-dab7f862b395">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="cd7305da-280f-4320-828a-88bf567f4c30" />
+          </ProactiveCaching>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sales</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="85bc6ace-a542-4173-82d2-df48be5a54bd">
+          <ID>Sales</ID>
+          <Name>Sales</Name>
+          <CreatedTimestamp>2018-09-03T15:15:52.84Z</CreatedTimestamp>
+          <LastSchemaUpdate>2018-09-03T15:15:52.84Z</LastSchemaUpdate>
+          <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="71831280-6ba6-4948-ade6-b38810716e71">
+            <DataSourceViewID>Reseller Sales</DataSourceViewID>
+            <TableID>dbo_FactResellerSales</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="79d3643a-4266-42b6-a32d-c4dea6b43753">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="d489d8dc-4424-4ccb-9309-aac4ad5e1b15" />
+          </ProactiveCaching>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

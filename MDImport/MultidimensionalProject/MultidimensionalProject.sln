@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultidimensionalProject", "MultidimensionalProject\MultidimensionalProject.dwproj", "{5AA34043-632B-4CB4-8FA8-C9CA1821FFEC}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MyProject", "MyProject\MyProject.dwproj", "{6C49CBC8-6EDF-47ED-BA43-9DE2DAFCB446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA34043-632B-4CB4-8FA8-C9CA1821FFEC}.Development|Default.ActiveCfg = Development
+		{5AA34043-632B-4CB4-8FA8-C9CA1821FFEC}.Development|Default.Build.0 = Development
+		{5AA34043-632B-4CB4-8FA8-C9CA1821FFEC}.Development|Default.Deploy.0 = Development
+		{6C49CBC8-6EDF-47ED-BA43-9DE2DAFCB446}.Development|Default.ActiveCfg = Development
+		{6C49CBC8-6EDF-47ED-BA43-9DE2DAFCB446}.Development|Default.Build.0 = Development
+		{6C49CBC8-6EDF-47ED-BA43-9DE2DAFCB446}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {085290CA-4A7A-471C-BA4E-9AC16F895F30}
+	EndGlobalSection
+EndGlobal
