@@ -3,21 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultidimensionalProject", "MultidimensionalProject\MultidimensionalProject.dwproj", "{5AA34043-632B-4CB4-8FA8-C9CA1821FFEC}"
-EndProject
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MyProject", "MyProject\MyProject.dwproj", "{6C49CBC8-6EDF-47ED-BA43-9DE2DAFCB446}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Reseller Sales", "Reseller Sales\Reseller Sales.dwproj", "{AE4593E2-BE0C-4F36-A49E-D30E1A519B26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5AA34043-632B-4CB4-8FA8-C9CA1821FFEC}.Development|Default.ActiveCfg = Development
-		{5AA34043-632B-4CB4-8FA8-C9CA1821FFEC}.Development|Default.Build.0 = Development
-		{5AA34043-632B-4CB4-8FA8-C9CA1821FFEC}.Development|Default.Deploy.0 = Development
-		{6C49CBC8-6EDF-47ED-BA43-9DE2DAFCB446}.Development|Default.ActiveCfg = Development
-		{6C49CBC8-6EDF-47ED-BA43-9DE2DAFCB446}.Development|Default.Build.0 = Development
-		{6C49CBC8-6EDF-47ED-BA43-9DE2DAFCB446}.Development|Default.Deploy.0 = Development
+		{AE4593E2-BE0C-4F36-A49E-D30E1A519B26}.Development|Default.ActiveCfg = Development
+		{AE4593E2-BE0C-4F36-A49E-D30E1A519B26}.Development|Default.Build.0 = Development
+		{AE4593E2-BE0C-4F36-A49E-D30E1A519B26}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
